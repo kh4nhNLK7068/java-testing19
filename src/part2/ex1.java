@@ -37,8 +37,7 @@ public class ex1 {
                   20000000 * 0.25 + (income - 52000000) * 0.30;
         } else {
             tax = 5000000 * 0.05 + 5000000 * 0.10 + 8000000 * 0.15 + 
-                  14000000 * 0.20 + 20000000 * 0.25 + 
-                  (80000000 - income) * -1; // This line seems incorrect, should be corrected
+                  14000000 * 0.20 + 20000000 * 0.25 + 28000000 * 0.30 + (income - 80000000) * 0.35;
         }
 
         return tax;
